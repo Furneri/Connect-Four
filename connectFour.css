@@ -1,0 +1,33 @@
+#grid{
+  background-color: rgb(255, 237, 3);
+  height: 90vh;
+}
+.side{
+  height: 100vh;
+}
+.gameColum{
+    height: 100%;
+}
+.hole{
+  height: 14.5%;
+  width: 67%;
+  background-color: #fff;
+  position: relative;
+  border-radius: 9000px;
+  margin-top: 8%;
+  z-index: 1;
+}
+.beam{
+  height: 49vh;
+  top: 50%;
+  position: absolute;;
+  width: 10px;
+  background: rgb(0, 87, 255);
+  overflow: visible;
+}
+#left{
+  left: 0;
+}
+#right{
+  right: 0;
+}
