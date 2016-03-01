@@ -1,33 +1,42 @@
 #grid{
-  background-color: rgb(255, 237, 3);
-  height: 90vh;
+  /*height: 90vh;*/
+  /*the entire place where the connect four image is*/
+}
+.boardCol{
+  /*Each col on the image*/
+  position: absolute;
+  height: 478.578px;
+  width: 91.4285px;
+  top: 0;
 }
 .side{
-  height: 100vh;
+  /*The side of the entire page*/
+  /*height: 90vh;*/
 }
-.gameColum{
-    height: 100%;
+/*Each of these colums below are absolutely postioned to be laid on top of the image*/
+/*They are also children of .boardCol*/
+#col-2{
+  left: 110px;
 }
-.hole{
-  height: 14.5%;
-  width: 67%;
-  background-color: #fff;
+#col-3{
+  left: 200px;
+}
+#col-4{
+  left: 290px;
+}
+#col-5{
+  left: 380px;
+}
+#col-6{
+  left: 470px;
+}
+#col-7{
+  left: 560px;
+}
+.slot{
+  /*This is the hole where the tokens will go*/
+  height: 79.7605px;
+  width: 90px;
+  border-radius: 1000px;
   position: relative;
-  border-radius: 9000px;
-  margin-top: 8%;
-  z-index: 1;
-}
-.beam{
-  height: 49vh;
-  top: 50%;
-  position: absolute;;
-  width: 10px;
-  background: rgb(0, 87, 255);
-  overflow: visible;
-}
-#left{
-  left: 0;
-}
-#right{
-  right: 0;
 }
